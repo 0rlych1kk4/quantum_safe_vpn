@@ -1,0 +1,16 @@
+[package]
+name = "quantum_safe_vpn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pqcrypto = "0.18.1"
+pqcrypto-kyber = "0.8.1"
+quinn = "0.10"
+rustls = "0.21"
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+tun = "0.5"
+webrtc = "0.9"
+rand = "0.8"
+
